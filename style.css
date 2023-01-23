@@ -1,0 +1,49 @@
+* {
+    background-color: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 15%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto_a_encriptar{
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0a3871;}
+
+.texto_a_encriptar:focus{
+    outline: none;
+}
+
+.texto_encriptado{
+    background: white;
+    background-image: url(./img/muneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.texto_encriptado:focus{
+    outline: none;
+}
