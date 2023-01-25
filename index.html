@@ -15,25 +15,27 @@
 <body>
 
     <header>
-        <img src="/img/logo_alura.png" alt="Logo Alura" class="logo_header">
+        <img src="./img/logo_alura.png" alt="Logo Alura" class="logo">
+        <h1>Encriptador Alura</h1>
     </header>
 
     <main>
-        <section>
-            <textarea class="texto_a_encriptar" cols="30" rows="10" placeholder="Ingrese el texto"></textarea>
-            <div>
-                <h6 class="informacion">Solo letras minusculas y sin acentos.</h6>
-            </div>
-            <div class="cont_botones">
-                <button class="btn_encriptar">Encriptar</button>
-                <button class="btn_desencriptar">Desencriptar</button>
-            </div>
-        </section>
-        <section class="lado_b">
-            <textarea cols="30" rows="10" class="texto_encriptado"></textarea>
-            <div>
-                <button class="btn_copiar_texto">Copiar</button>
-            </div>
+        <section class="main_container">
+            <section class="lado_a">
+                <textarea class="texto_a_encriptar" cols="30" rows="10" placeholder="Ingrese aqui el texto que desea encriptar, debe ser en minusculas y sin acentos."></textarea>
+
+                <div class="cont_botones">
+                    <button class="btns encriptar">Encriptar</button>
+                    <button class="btns desencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="lado_b">
+                <textarea cols="30" rows="10" class="texto_encriptado"></textarea>
+                <div class="container_button_lb">
+                    <button class="btns desencriptar">Copiar</button>
+                </div>
+            </section>
         </section>
     </main>
 

@@ -4,33 +4,117 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 40px;
+    color: #0a3871;
+    text-shadow: 3px 3px 2px #0a3871;
 }
 
 .logo{
-    padding-top: 10px;
-    margin-left: 10px;
-    width: 15%;
+    height: 48px;
+    margin-right: 50px;
 }
 
-main{
+.main_container{
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.lado_a{
+    width: 680px;
+    height: 640px;
+    margin-right: 80px;
+}
+
+.lado_b{
+    width: 680px;
+    height: 640px;
+    margin-right: 80px;
 }
 
 .texto_a_encriptar{
-    border: none;
+    width: 650px;
+    height: 500px;
     color: #0a3871;
-    margin-top: 90px;
-    text-transform: lowercase;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 10px 10px 28px -6px rgba(10,56,113,1);
+    -moz-box-shadow: 10px 10px 28px -6px rgba(10,56,113,1);
+    box-shadow: 10px 10px 28px -6px rgba(10,56,113,1);
+    padding: 15px;
 }
 
-::placeholder{color: #0a3871;}
+::placeholder{
+    color: #0a3871;
+    font-size: 25px;
+}
 
 .texto_a_encriptar:focus{
     outline: none;
 }
 
+
+.texto_encriptado{
+    width: 650px;
+    height: 500px;
+    color: #0a3871;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 10px 10px 28px -6px rgba(10,56,113,1);
+    -moz-box-shadow: 10px 10px 28px -6px rgba(10,56,113,1);
+    box-shadow: 10px 10px 28px -6px rgba(10,56,113,1);
+    padding: 15px;
+    background-image: url(./img/muneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin-right: 50px;
+}
+
+
+.texto_encriptado:focus{
+    outline: none;
+}
+
+.btns{
+    cursor: pointer;
+    height: 67px;
+    margin-left: 2px;
+    width: 328px;
+}
+
+.encriptar{    
+    background-color:E5E5E5;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+}
+
+.desencriptar{    
+    background-color:#0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #E5E5E5;
+}
+
+.container_button_lb{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 
 .texto_encriptado{
     background: white;
     background-image: url(./img/muneco.png);
@@ -42,6 +126,7 @@ main{
     margin-top: 20px;
     padding-left: 20px;
     position: fixed;
+    
 }
 
 .texto_encriptado:focus{
@@ -82,17 +167,13 @@ main{
     color: #0a3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 108px;
-    width: 402px;
+    margin-left: 180px;
+    width: 400px;
     position: absolute;
+    top: 100px;
 }
 
 .informacion{
     color: #495057;
     font-size: 18px;
-}
-.lado_b{
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
+} */
